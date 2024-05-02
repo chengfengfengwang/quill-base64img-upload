@@ -1,0 +1,25 @@
+{
+  "name": "quill-base64img-upload",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "./dist/quill-base64img-upload.umd.cjs",
+  "exports": {
+    ".": {
+      "import": "./dist/quill-base64img-upload.js",
+      "require": "./dist/quill-base64img-upload.umd.cjs"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.8",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
+  },
+  "dependencies": {
+    "quill": "^2.0.1"
+  }
+}
