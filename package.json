@@ -1,6 +1,6 @@
 {
   "name": "quill-base64img-upload",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "type": "module",
   "main": "./dist/quill-base64img-upload.umd.cjs",
   "exports": {
@@ -17,9 +17,14 @@
   "devDependencies": {
     "@types/node": "^20.12.8",
     "typescript": "^5.2.2",
-    "vite": "^5.2.0"
+    "vite": "^5.2.0",
+    "vite-plugin-dts": "^3.9.0"
   },
   "dependencies": {
     "quill": "^2.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chengfengfengwang/quill-base64img-upload"
   }
 }
